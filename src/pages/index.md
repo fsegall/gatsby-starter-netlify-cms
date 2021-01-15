@@ -1,50 +1,29 @@
 ---
 templateKey: index-page
-title: Great coffee with a conscience
-image: /img/home-jumbotron.jpg
-heading: Great coffee with a conscience
-subheading: Support sustainable farming while enjoying a cup
+title: A mágica do JAMstack aqui na capital
+image: /img/brasilia-master-plan_home-jumbotron.jpg
+heading: Como tudo funciona?
+subheading: O nome JAM é baseado em 3 pilares - JavaScript no cliente, APIs e Markup 'pré-buildado'.
 mainpitch:
-  title: Why Kaldi
+  title: Por que o JAMstack?
   description: >
-    Kaldi is the coffee store for everyone who believes that great coffee
-    shouldn't just taste good, it should do good too. We source all of our beans
-    directly from small scale sustainable farmers and make sure part of the
-    profits are reinvested in their communities.
+    Para fazer web apps e sites globalmente distribuídos e resilientes a tráfico pesado.
+    Fazendo deploy contínuo com o work-flow git que já está acostumado. Tudo isso tirando proveito de poder usar um design modular e consumir serviços via API.
+
 description: >-
-  Kaldi is the ultimate spot for coffee lovers who want to learn about their
-  java’s origin and support the farmers that grew it. We take coffee production,
-  roasting and brewing seriously and we’re glad to pass that knowledge to
-  anyone.
+  O código fonte do site é hospedado em um repositório git que armazena o conteúdo e o código juntos em arquivos editáveis. Sempre que uma mudança é feita, um novo processo de build é inicializado que pré-renderiza o site ao criar páginas HTML baseadas em templates, conteúdo e dados. Por fim, todos os recursos são publicados globalmente em um CDN, perto dos usuários finais.
 intro:
   blurbs:
-    - image: /img/coffee.png
+    - image: /img/GitHub-logo.png
       text: >
-        We sell green and roasted coffee beans that are sourced directly from
-        independent farmers and farm cooperatives. We’re proud to offer a
-        variety of coffee beans grown with great care for the environment and
-        local communities. Check our post or contact us directly for current
-        availability.
-    - image: /img/coffee-gear.png
+        Você cria um repositório remoto no github para o seu controle de versão normalmente.
+    - image: /img/Gatsby-logo.png
       text: >
-        We offer a small, but carefully curated selection of brewing gear and
-        tools for every taste and experience level. No matter if you roast your
-        own beans or just bought your first french press, you’ll find a gadget
-        to fall in love with in our shop.
-    - image: /img/tutorials.png
+        Usa um gerador de sites estáticos para criar o seu projeto do zero ou com um starter. O Gatsby (que usamos neste site) e o Nextjs são duas opções muito utilizadas pela comunidade do Reactjs. Porém existem vários outros baseados em ecossistemas fora do JavaScript também.
+    - image: /img/full-logo-light-Netlify.png
       text: >
-        Love a great cup of coffee, but never knew how to make one? Bought a
-        fancy new Chemex but have no clue how to use it? Don't worry, we’re here
-        to help. You can schedule a custom 1-on-1 consultation with our baristas
-        to learn anything you want to know about coffee roasting and brewing.
-        Email us or call the store for details.
-    - image: /img/meeting-space.png
-      text: >
-        We believe that good coffee has the power to bring people together.
-        That’s why we decided to turn a corner of our shop into a cozy meeting
-        space where you can hang out with fellow coffee lovers and learn about
-        coffee making techniques. All of the artwork on display there is for
-        sale. The full price you pay goes to the artist.
+        O Netlify, ou outras plataformas de hospedagem (como o Vercel, dentre dezenas de outras), se encarrega de fazer o build da aplicação, servir os seus assets em um CDN globalmente distribuído e fazer a integração contínua dos seu repositório no GitHub para deploys contínuos sempre que comitar o seu código na branch configurada.
+
   heading: What we offer
   description: >
     Kaldi is the ultimate spot for coffee lovers who want to learn about their
