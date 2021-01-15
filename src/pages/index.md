@@ -16,7 +16,7 @@ intro:
   blurbs:
     - image: /img/GitHub-logo.png
       text: >
-        Você cria um repositório remoto no github para o seu controle de versão normalmente.
+        Você cria um repositório remoto no Github (Bitbucket, Gitlab ...) para o seu controle de versão normalmente.
     - image: /img/Gatsby-logo.png
       text: >
         Usa um gerador de sites estáticos para criar o seu projeto do zero ou com um starter. O Gatsby (que usamos neste site) e o Nextjs são duas opções muito utilizadas pela comunidade do Reactjs. Porém existem vários outros baseados em ecossistemas fora do JavaScript também.
